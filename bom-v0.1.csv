@@ -1,0 +1,25 @@
+item_id,subsystem,part,qty,material_or_type,source,notes
+MK2-001,Frame,Torso spine assembly,1,Aluminum 6061,Fabrication service,Primary load path
+MK2-002,Frame,Shoulder bridge plate set,1,Aluminum 6061,Fabrication service,Symmetric arm mount datum
+MK2-003,Frame,Neck mast bracket,1,Aluminum 6061,Fabrication service,Head module mount
+MK2-004,Actuation,Shoulder actuator module,2,Servo/BLDC + gearbox,COTS,Select after torque test
+MK2-005,Actuation,Elbow actuator module,2,Servo/BLDC + gearbox,COTS,Select after torque test
+MK2-006,Actuation,Wrist-lite actuator module,2,Servo/COTS,COTS,Single-axis initial
+MK2-007,Joints,Bearing set shoulder,4,Radial bearing,COTS,Pair per shoulder axis
+MK2-008,Joints,Bearing set elbow,4,Radial bearing,COTS,Pair per elbow axis
+MK2-009,Joints,Shaft and pin kit,1,Steel precision stock,COTS/Fabrication,Mixed standard and custom lengths
+MK2-010,Shell,Head shell parts,1 set,PETG/Nylon,In-house print,Visual + light structural
+MK2-011,Shell,Torso shell parts,1 set,PETG/PLA,In-house print,Service panel included
+MK2-012,Shell,Arm cover parts,1 set,PETG/PLA,In-house print,Cable access features
+MK2-013,Electronics,Main supervisor SBC,1,Embedded SBC,COTS,Control orchestration + logging
+MK2-014,Electronics,Motor control MCU boards,3,MCU controller,COTS/Custom,Head + left arm + right arm
+MK2-015,Sensors,Joint encoders/sensors,8-12,Magnetic/optical,COTS,Final count by DoF freeze
+MK2-016,Sensors,IMU module,1-2,6-axis IMU,COTS,Torso required, head optional
+MK2-017,Sensors,Camera module,1,USB/CSI camera,COTS,Head mounted
+MK2-018,Sensors,Microphone pair,1 pair,Matched mics,COTS,Bilateral mounting
+MK2-019,Power,Motor rail PSU/Battery pack,1,12-24V supply,COTS,Bench + untethered options
+MK2-020,Power,Logic regulators and PDU,1 set,DC/DC + fuse blocks,COTS,Separated rails
+MK2-021,Safety,E-stop assembly,1,Switch + relay chain,COTS,Hard motor cutoff
+MK2-022,Harness,Wire and connector kit,1 set,Silicone wire + locking connectors,COTS,Service loops at joints
+MK2-023,Hardware,Fastener and insert kit,1 set,M3/M4/M5 + heat-set inserts,COTS,Standardized hardware family
+MK2-024,Fixtures,Assembly alignment jigs,1 set,Printed + metal,In-house/Fabrication,Shoulder and harness fixtures
