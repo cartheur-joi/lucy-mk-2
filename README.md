@@ -18,8 +18,13 @@ This repository turns the Lucy Mk-II concept into a buildable prototype using:
 - [`docs/planning/07-test-validation.md`](docs/planning/07-test-validation.md): verification matrix and acceptance tests
 - [`docs/planning/08-risk-register.md`](docs/planning/08-risk-register.md): technical risks with mitigations
 - [`docs/step-walkthrough.md`](docs/step-walkthrough.md): diagram-first walkthrough of all planning steps
+- [`docs/image-assessment.md`](docs/image-assessment.md): image content assessment mapped to planning docs
 - [`docs/data/bom-v0.1.csv`](docs/data/bom-v0.1.csv): preliminary bill of materials
 - [`docs/planning/work-breakdown.md`](docs/planning/work-breakdown.md): phased execution plan
+
+## Images
+
+- [`images/Lucy-Mk-II-limb.jpg`](images/Lucy-Mk-II-limb.jpg): handheld limb prototype reference image
 
 ## Current Status
 

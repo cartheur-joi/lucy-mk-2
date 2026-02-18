@@ -5,6 +5,8 @@
 
 This document walks through the steps described across the Mk-II planning Markdown files.
 
+Related: [`docs/image-assessment.md`](image-assessment.md)
+
 ```mermaid
 flowchart LR
 A[01 Brief] --> B[02 Architecture] --> C[03 Mechanical]
@@ -128,4 +130,3 @@ P4 --> P5[Phase 5<br/>Demo + v0.2 Backlog]
 4. Phase 3 Weeks 8-10: full mech/electrical integration gates.
 5. Phase 4 Weeks 11-12: calibration + acceptance gate (from `docs/planning/07-test-validation.md`).
 6. Phase 5 Week 13: demo package + lessons + v0.2 backlog.
-
