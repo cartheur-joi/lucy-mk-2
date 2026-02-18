@@ -1,5 +1,8 @@
 # Mechanical Design Plan
 
+[Back to README](../../README.md)
+
+
 ## Design Intent from Concept
 
 - Slim torso silhouette with layered panel geometry
@@ -88,4 +91,3 @@
 - Manufacturing drawings for all fabricated metal parts
 - Print-ready STL/3MF package with per-part material tags
 
-[Back to README](../../README.md)

@@ -1,5 +1,8 @@
 # System Architecture
 
+[Back to README](../../README.md)
+
+
 ## Top-Level Subsystems
 
 - S1 Structural Frame
@@ -81,4 +84,3 @@ Control layers:
 - Locking connectors and strain relief at every moving boundary
 - Connector map and pinout ownership document required pre-assembly
 
-[Back to README](../../README.md)

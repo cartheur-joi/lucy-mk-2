@@ -1,5 +1,8 @@
 # Assembly and Integration Plan
 
+[Back to README](../../README.md)
+
+
 ## Build Order (High Level)
 
 1. Build and verify torso frame
@@ -63,4 +66,3 @@
 - Replace any controller board in <= 20 minutes.
 - Access E-stop and main fuse without shell removal.
 
-[Back to README](../../README.md)

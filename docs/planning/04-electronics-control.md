@@ -1,5 +1,8 @@
 # Electronics and Control Plan
 
+[Back to README](../../README.md)
+
+
 ## Power Architecture
 
 - Supply modes:
@@ -73,4 +76,3 @@
 - Keep low-level actuation and sensing interfaces protocol-stable.
 - Define message contracts now so GA144 integration can replace or augment mid-level compute later without rewiring the entire system.
 
-[Back to README](../../README.md)

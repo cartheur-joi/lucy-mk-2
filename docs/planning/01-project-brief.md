@@ -1,5 +1,8 @@
 # Project Brief (v0.1)
 
+[Back to README](../../README.md)
+
+
 ## Objective
 
 Build a physically credible Lucy Mk-II prototype derived from the concept image, optimized for:
@@ -44,4 +47,3 @@ Build a physically credible Lucy Mk-II prototype derived from the concept image,
 - Metal parts must be suitable for common fabrication services (laser/waterjet/CNC, off-the-shelf stock)
 - Budget sensitivity: prioritize reusable modules and standard parts
 
-[Back to README](../../README.md)

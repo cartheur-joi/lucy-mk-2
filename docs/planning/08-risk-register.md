@@ -1,5 +1,8 @@
 # Risk Register (v0.1)
 
+[Back to README](../../README.md)
+
+
 | ID | Risk | Severity | Likelihood | Mitigation | Trigger |
 |---|---|---|---|---|---|
 | RSK-01 | Shoulder torque insufficient for planned arm mass | High | Medium | early torque budget, bench module test, gear/belt reduction option | failure to hold arm posture under load |
@@ -16,4 +19,3 @@
 - Weekly risk review during active build.
 - Update severity/likelihood after each integration checkpoint.
 
-[Back to README](../../README.md)

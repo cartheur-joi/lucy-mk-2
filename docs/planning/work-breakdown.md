@@ -1,5 +1,8 @@
 # Work Breakdown and Milestones
 
+[Back to README](../../README.md)
+
+
 ## Phase 0: Definition Freeze (Week 1)
 
 - Confirm v0.1 scope (torso + head + arms).
@@ -67,4 +70,3 @@ Deliverables:
 - demo-ready Mk-II v0.1 platform
 - engineering report with risk updates
 
-[Back to README](../../README.md)
