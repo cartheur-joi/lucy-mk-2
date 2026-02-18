@@ -43,3 +43,5 @@ Build a physically credible Lucy Mk-II prototype derived from the concept image,
 - Plastic parts must be printable on available in-house 3D printer
 - Metal parts must be suitable for common fabrication services (laser/waterjet/CNC, off-the-shelf stock)
 - Budget sensitivity: prioritize reusable modules and standard parts
+
+[Back to README](../../README.md)

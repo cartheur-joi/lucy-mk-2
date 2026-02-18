@@ -87,3 +87,5 @@
 - Sub-assemblies: torso, neck, left arm, right arm
 - Manufacturing drawings for all fabricated metal parts
 - Print-ready STL/3MF package with per-part material tags
+
+[Back to README](../../README.md)
