@@ -29,3 +29,7 @@ This repository turns the Lucy Mk-II concept into a buildable prototype using:
 ## Current Status
 
 This is `v0.1` planning and architecture. No CAD or fabrication files are generated yet.
+
+## CAD Runtime Default
+
+- Use `scripts/freecad-1.1.sh` for all FreeCAD automation in this repo (defaults to FreeCAD `1.1` AppImage).
