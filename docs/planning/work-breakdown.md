@@ -54,7 +54,7 @@ Gate:
 
 Gate:
 
-- acceptance criteria from `mk-2/07-test-validation.md` met for v0.1
+- acceptance criteria from `docs/planning/07-test-validation.md` met for v0.1
 
 ## Phase 5: Demo Package and v0.2 Backlog (Week 13)
 

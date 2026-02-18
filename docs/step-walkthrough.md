@@ -10,7 +10,7 @@ E --> F[06 Assembly/Integration] --> G[07 Test/Validation]
 G --> H[08 Risk Review] --> I[work-breakdown Milestones]
 ```
 
-## 01-project-brief.md
+## docs/planning/01-project-brief.md
 
 Step flow: define target, then constrain build.
 
@@ -21,7 +21,7 @@ Step flow: define target, then constrain build.
 5. Define success criteria: mechanical, electrical, control, integration.
 6. Apply constraints: printable plastics, vendor-friendly metal, budget reuse.
 
-## 02-system-architecture.md
+## docs/planning/02-system-architecture.md
 
 Step flow: split system into subsystems and interfaces.
 
@@ -29,7 +29,7 @@ Step flow: split system into subsystems and interfaces.
 2. Define each subsystem's purpose and implementation path.
 3. Lock interface boundaries (mounts, rails, connectors, messaging layers).
 
-## 03-mechanical-design.md
+## docs/planning/03-mechanical-design.md
 
 Step flow: kinematics -> loads -> materials -> zone architecture -> CAD outputs.
 
@@ -41,7 +41,7 @@ Step flow: kinematics -> loads -> materials -> zone architecture -> CAD outputs.
 6. Standardize fasteners, fits, and tolerances.
 7. Deliver CAD package (top assembly, subsystems, drawings, print files).
 
-## 04-electronics-control.md
+## docs/planning/04-electronics-control.md
 
 Step flow: power base -> control stack -> sensing -> software layers -> safety.
 
@@ -55,7 +55,7 @@ Step flow: power base -> control stack -> sensing -> software layers -> safety.
 8. Enforce physical + software E-stop strategy.
 9. Keep GA144-compatible protocol boundary.
 
-## 05-manufacturing-plan.md
+## docs/planning/05-manufacturing-plan.md
 
 Step flow: fabrication split -> print standards -> metal route -> DFM/tolerancing -> inspection/change control.
 
@@ -68,7 +68,7 @@ Step flow: fabrication split -> print standards -> metal route -> DFM/tolerancin
 7. Run incoming inspection and first-article checks.
 8. Control revisions with naming + ECO log.
 
-## 06-assembly-integration.md
+## docs/planning/06-assembly-integration.md
 
 ```mermaid
 flowchart TD
@@ -90,7 +90,7 @@ Detailed execution phases:
 5. Phase E: synchronized behavior and shell fit checks.
 6. Checkpoints C1-C5 and serviceability time targets.
 
-## 07-test-validation.md
+## docs/planning/07-test-validation.md
 
 Step flow: validate structure/electrical/control/perception against acceptance thresholds.
 
@@ -100,7 +100,7 @@ Step flow: validate structure/electrical/control/perception against acceptance t
 4. T4 sensing tests (telemetry continuity, audio directionality, camera latency).
 5. Gate using acceptance thresholds and required test artifacts.
 
-## 08-risk-register.md
+## docs/planning/08-risk-register.md
 
 Step flow: monitor top 8 risks with trigger-based mitigation updates.
 
@@ -108,7 +108,7 @@ Step flow: monitor top 8 risks with trigger-based mitigation updates.
 2. Update severity/likelihood after each integration checkpoint.
 3. Trigger mitigations as soon as defined failure signals appear.
 
-## work-breakdown.md
+## docs/planning/work-breakdown.md
 
 ```mermaid
 flowchart LR
@@ -123,5 +123,5 @@ P4 --> P5[Phase 5<br/>Demo + v0.2 Backlog]
 2. Phase 1 Weeks 2-4: CAD and DFM gates.
 3. Phase 2 Weeks 5-7: fabricate and shoulder benchmark gate.
 4. Phase 3 Weeks 8-10: full mech/electrical integration gates.
-5. Phase 4 Weeks 11-12: calibration + acceptance gate (from `07-test-validation.md`).
+5. Phase 4 Weeks 11-12: calibration + acceptance gate (from `docs/planning/07-test-validation.md`).
 6. Phase 5 Week 13: demo package + lessons + v0.2 backlog.
