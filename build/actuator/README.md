@@ -20,6 +20,7 @@ E --> F[Bench Validate]
 - `assembly/`: step-by-step assembly notes and photos
 - `checklists/`: print and assembly checklists
 - `exports/`: temporary exports (test meshes, screenshots)
+- `renders/`: generated CAD preview images and exports for part IDs
 
 ## Start Here
 
@@ -27,5 +28,6 @@ E --> F[Bench Validate]
 2. Populate `02-freecad-parameter-template.csv`.
 3. Use `checklists/print-checklist.md` for each printed part.
 4. Use `checklists/assembly-checklist.md` during mechanical integration.
+5. Review generated previews in `renders/README.md`.
 
 [Back to README](../../README.md)
