@@ -215,19 +215,27 @@ def render_part(out_dir, name, shape_builder):
     view.fitAll()
 
     png_path = os.path.join(out_dir, name + ".png")
+    fcstd_path = os.path.join(out_dir, name + ".FCStd")
     step_path = os.path.join(out_dir, name + ".step")
     stl_path = os.path.join(out_dir, name + ".stl")
 
     view.saveImage(png_path, 1400, 1000, "White")
+    doc.saveAs(fcstd_path)
     Part.export([obj], step_path)
     Mesh.export([obj], stl_path)
 
     App.closeDocument(doc_name)
-    return png_path, step_path, stl_path
+    return png_path, fcstd_path, step_path, stl_path
 
 
 def main():
     repo_root = os.getcwd()
+    # FreeCAD AppImage + `freecadcmd -c` can report cwd as ".../-c".
+    # If that happens, use the parent workspace root.
+    if os.path.basename(repo_root) == "-c":
+        parent = os.path.dirname(repo_root)
+        if os.path.isdir(os.path.join(parent, "build", "actuator")):
+            repo_root = parent
     out_dir = os.path.join(repo_root, "build", "actuator", "renders")
     if len(sys.argv) > 1:
         out_dir = os.path.abspath(sys.argv[1])
@@ -238,9 +246,9 @@ def main():
     ok = 0
     for name, builder in PARTS:
         try:
-            png_path, step_path, stl_path = render_part(out_dir, name, builder)
+            png_path, fcstd_path, step_path, stl_path = render_part(out_dir, name, builder)
             ok += 1
-            print("OK", name, "->", png_path, step_path, stl_path)
+            print("OK", name, "->", png_path, fcstd_path, step_path, stl_path)
         except Exception as exc:
             print("FAIL", name, str(exc))
     print("Done:", ok, "/", len(PARTS))
