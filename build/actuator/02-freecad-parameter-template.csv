@@ -1,0 +1,25 @@
+group,parameter,value,unit,notes
+global,clearance_general,0.25,mm,default fit allowance for printed interfaces
+global,wall_min,2.4,mm,minimum wall thickness for structural shells
+global,fillet_structural,2.0,mm,default structural edge relief
+global,chamfer_entry,0.6,mm,easier insert and shaft starts
+motor,motor_mount_pattern_x,0.0,mm,set from chosen motor datasheet
+motor,motor_mount_pattern_y,0.0,mm,set from chosen motor datasheet
+motor,motor_shaft_diameter,0.0,mm,set from chosen motor datasheet
+motor,motor_body_diameter,0.0,mm,set from chosen motor datasheet
+bearing,bearing_outer_diameter,0.0,mm,fit-critical
+bearing,bearing_inner_diameter,0.0,mm,fit-critical
+bearing,bearing_width,0.0,mm,fit-critical
+bearing,bearing_seat_interference,0.10,mm,use test coupons before final
+shaft,shaft_nominal_diameter,0.0,mm,choose with bearing inner diameter
+shaft,shaft_length_output,0.0,mm,depends on link stack
+shaft,shaft_retention_gap,0.20,mm,axial free-play target
+fastener,m3_clearance_hole,3.2,mm,printed clearance
+fastener,m4_clearance_hole,4.3,mm,printed clearance
+fastener,m5_clearance_hole,5.3,mm,printed clearance
+insert,m3_insert_pocket_diameter,4.6,mm,verify against insert vendor
+insert,m3_insert_pocket_depth,5.0,mm,verify against insert vendor
+print,layer_height_structural,0.20,mm,baseline for functional parts
+print,infill_structural,45,percent,gyroid or cubic
+print,perimeters_structural,4,count,minimum for load-bearing parts
+print,nozzle_diameter,0.40,mm,adjust values if using larger nozzle
