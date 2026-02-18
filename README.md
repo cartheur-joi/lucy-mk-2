@@ -17,6 +17,7 @@ This repository turns the Lucy Mk-II concept into a buildable prototype using:
 - `06-assembly-integration.md`: assembly sequence, fixtures, calibration, and integration workflow
 - `07-test-validation.md`: verification matrix and acceptance tests
 - `08-risk-register.md`: technical risks with mitigations
+- `docs/step-walkthrough.md`: diagram-first walkthrough of all planning steps
 - `bom-v0.1.csv`: preliminary bill of materials
 - `work-breakdown.md`: phased execution plan
 
